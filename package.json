@@ -1,7 +1,7 @@
 {
-  "name": "gulp-boilerplate",
+  "name": "all_is_timed",
   "version": "1.0.0",
-  "description": "Frontend boilerplate based on gulp",
+  "description": "Create a page that would display the number of seconds the user spent on it",
   "main": "index.js",
   "scripts": {
     "start": "gulp default --silent",
