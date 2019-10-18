@@ -1,10 +1,10 @@
-# All is Timed
+# All is Counted
 
 ## Task
 
-1. Using `setInterval`, create a page that displays the number of seconds the user spent on it. Page loads with displayed `0`, after 1 second it will replace `0` with `1`, after another second it will show `2` and so on.
+1. Create a page that would display the number of times the user clicked on it. It will start by displaying `0`, after the first click anywhere on the page it will replace `0` with `1`, after another click it will show `2` and so on.
 
-2. Modify the counter so that it _never_ resets: each time the user visits the page, the initial number of seconds he sees is the number of seconds he has already spent on the page. The timer then increases the number by 1 every second, just as it did before.
+2. Modify the counter so that it does not reset if the user _refreshes_ the page: after each refresh, the initial number of clicks the user sees is the number of times he has already clicked on the page. The counter then increases by 1 upon every click, just as it did before. The counter, however, _should reset_ to `0` after the page is closed and reopened.
 
 ---
 **Read the guideline before start**
