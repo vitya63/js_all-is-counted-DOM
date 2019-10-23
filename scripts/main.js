@@ -9,7 +9,7 @@ if (!sessionStorage.getItem(counter)) {
 counterContainer.textContent = sessionStorage.getItem(counter);
 
 function changeCount() {
-  sessionStorage.counter = Number(sessionStorage.counter) + 1;
+  sessionStorage.setItem(counter, Number(sessionStorage.getItem(counter)) + 1);
   counterContainer.textContent = sessionStorage.getItem(counter);
 }
 
